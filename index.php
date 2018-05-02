@@ -4,6 +4,6 @@ include 'Prime.php';
 
 $p1 = new Prime;
 
-echo $p1->getPrimeNo(1000);
+echo $p1->getPrimeNo(100);
 
 ?>

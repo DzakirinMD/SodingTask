@@ -1,9 +1,9 @@
 <?php
 
-include 'primeno.php';
+include 'Prime.php';
 
-$p1 = new primeNo;
+$p1 = new Prime;
 
-echo $p1->getPrimeNo(100);
+echo $p1->getPrimeNo(1000);
 
 ?>

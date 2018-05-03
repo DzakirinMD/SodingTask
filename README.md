@@ -2,4 +2,5 @@
 
 TITLE: Assessment 1
 DESCRIPTION: Consecutive prime sum Problem 50
-R
+The Question is taken from Project Euler problem no 50
+

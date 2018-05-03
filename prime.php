@@ -3,20 +3,18 @@ class IsPrime
 {       
      function check($num)
      {
-        $bCheck = True; 
+        $cPrime = True; 
         for ($i = 2; $i < $num; $i++)
         {
             if ($num % $i == 0) 
             {
-                 $bCheck = False;
+                 $cPrime = False;
                  break;
             }               
         }
-       if ($bCheck) 
-          //echo 'Prime';    
+       if ($cPrime) 
           return true;       
        else
-          //echo 'NOT prime'; 
           return false;
      }       
   }

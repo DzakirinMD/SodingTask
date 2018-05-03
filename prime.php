@@ -11,9 +11,8 @@ class Prime
                     $counter++;
                 }
           }
-        // Display prime number
         if($counter==2){
-            //echo $i ." Prime number </br>";
+            //echo $i ." is a Prime number </br>";
             $this->pNo += $i;
             $this->count++; 
             
